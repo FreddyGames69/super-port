@@ -6,3 +6,27 @@ const abrirMenuMobile = () =>{
     });
 }
 abrirMenuMobile();
+
+
+const abrirHome = () =>{
+    let boton = document.querySelector("#btn-home");
+    boton.addEventListener('click', ()=>{
+        let main = document.querySelector(".main");
+        main.classList.remove("show-main");
+        let nav = document.querySelector(".header-main");
+        nav.classList.remove("show-nav");
+    });
+}
+abrirHome();
+
+
+const abrirAbout = () =>{
+    let boton = document.querySelector("#btn-about");
+    boton.addEventListener('click', ()=>{
+        let main = document.querySelector(".main");
+        main.classList.toggle("show-main");
+        let nav = document.querySelector(".header-main");
+        nav.classList.remove("show-nav");
+    });
+}
+abrirAbout();
