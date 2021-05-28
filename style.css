@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+ul li{
+    list-style: none;
+}
+header{
+    height: 100vh;
+    max-width: 100%;
+    background-image: linear-gradient( rgba(0,0,0,0.6),rgba(0,0,0,0.6) ), url('https://freddygutierrez.netlify.app/img/intro-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.header-mobile{
+    background-color: black;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+    text-transform: uppercase;
+    position: fixed;
+    height: 3rem;
+}
+.header-mobile h2{
+    font-weight: 600;
+}
+.header-mobile a{
+    color: white;
+    position: absolute;
+    right: 1rem;
+    font-size: 1.6rem;
+}
+.header-main{
+    background: #111;
+    position: absolute;
+    height: 100vh;
+    width: 5rem;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    left: -25%;
+    z-index: 5;
+    overflow: hidden;
+}
+.show-nav{
+    left: 0;
+    transition: all 0.5s ease;
+}
+.header-main .logo{
+    margin: 1rem 0;
+}
+.header-main ul{
+    display: flex;
+    flex-direction: column;
+}
+.header-main ul li a{
+    color: white;
+    font-size: 1.6rem;
+    margin: 1rem 0;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.banner{
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+.options{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    bottom: 1rem;
+}
+.lang ul{
+    display: flex;
+    margin-left: 1rem;
+}
+.lang ul li a{
+    margin-right: 0.5rem;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.social{
+    text-align: center;
+}
+.social ul li a{
+    color: white;
+    display: inline-block;
+    margin: 0.5rem 1rem;
+    font-size: 1.2rem;
+}
