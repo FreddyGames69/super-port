@@ -20,11 +20,11 @@ const abrirHome = () =>{
 abrirHome();
 
 
-const abrirAbout = () =>{
+const abrirAbout = () => {
     let boton = document.querySelector("#btn-about");
     boton.addEventListener('click', ()=>{
         let main = document.querySelector(".main");
-        main.classList.toggle("show-main");
+        main.classList.add("show-main");
         let nav = document.querySelector(".header-main");
         nav.classList.remove("show-nav");
     });

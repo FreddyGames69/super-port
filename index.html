@@ -1,138 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, user-scalable=no"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Freddy Gutierrez</title>
-  </head>
 
-  <body>
-    <header class="header">
-      <!--Menu Mobile-->
-      <div class="header-mobile">
-        <h2>Hello</h2>
-        <a id="btn-menu-mobile"><i class="fas fa-bars"></i></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Freddy Gutierrez</title>
+</head>
+<body>
+  <!--inicio Header-->
+  <header class="header">
+    <!--Menu Mobile-->
+    <div class="header-mobile">
+      <h2>Menu</h2>
+      <a id="btn-menu-mobile"><i class="fas fa-bars"></i></a>
+    </div>
+    <!--Menu Global-->
+    <nav class="header-main">
+      <!-- Logo -->
+      <div class="logo">
+        <img src="img/logo.png" alt="" />
       </div>
-      <!--Menu Global-->
-      <nav class="header-main">
-        <!-- Logo -->
-        <div class="logo">
-          <img src="img/logo.png" alt="" />
+      <ul>
+        <li>
+          <a id="btn-home" class="fas fa-house-damage"></a>
+        </li>
+        <li>
+          <a id="btn-about" class="fas fa-user-tie"></a>
+        </li>
+        <li>
+          <a id="btn-resume" class="fas fa-address-book"></a>
+        </li>
+        <li>
+          <a id="btn-portfolio" href="#portfolio" class="fas fa-briefcase"></a>
+        </li>
+        <li>
+          <a id="btn-blog" href="#blog" class="fas fa-receipt"></a>
+        </li>
+        <li>
+          <a id="btn-contact" href="#contact" class="fas fa-envelope"></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="home">
+      <div class="banner">
+        <h1>Freddy Gutierrez</h1>
+        <span>I am a</span>
+        <span><b>Developer</b></span>
+      </div>
+      <div class="options">
+        <div class="lang">
+          <ul>
+            <li><a class="lang-active" href="#">Eng</a></li>
+            <li><a href="#">Esp</a></li>
+          </ul>
         </div>
-        <ul>
-          <li>
-            <a id="btn-home" class="fas fa-house-damage"></a>
-          </li>
-          <li>
-            <a id="btn-about" class="fas fa-user-tie"></a>
-          </li>
-          <li>
-            <a id="btn-resume" class="fas fa-address-book"></a>
-          </li>
-          <li>
-            <a
-              id="btn-portfolio"
-              href="#portfolio"
-              class="fas fa-briefcase"
-            ></a>
-          </li>
-          <li>
-            <a id="btn-blog" href="#blog" class="fas fa-receipt"></a>
-          </li>
-          <li>
-            <a id="btn-contact" href="#contact" class="fas fa-envelope"></a>
-          </li>
-        </ul>
-      </nav>
-      <div class="home">
-        <div class="banner">
-          <h1>Freddy Gutierrez</h1>
-          <span>I am a</span>
-          <span><b>Developer</b></span>
-        </div>
-        <div class="options">
-          <div class="lang">
-            <ul>
-              <li><a href="#">Eng</a></li>
-              <li><a href="#">Esp</a></li>
-            </ul>
-          </div>
-          <div class="social">
-            <ul>
-              <li>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-              </li>
-            </ul>
-          </div>
+        <div class="social">
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
         </div>
       </div>
-    </header>
-    <main class="main">
-      <div class="about-me">
-        <div class="my-info">
-          <h2>About Me</h2>
-          <img class="separador" src="img/separador.svg" alt="" />
-          <div class="card">
-            <div class="grid-one">
-              <div>
-                <img class="img-me" src="img/me.jpg" alt="freddy gutierrez" />
-              </div>
-              <div>
-                <h3>Freddy Gutierrez</h3>
-                <p class="text-red"><i class="fas fa-map-marked-alt"></i> Mixco, Guatemala</p>
-                <p>
-                  Hello! I’m Freddy Gutierrez a self-taught &amp; award winning
-                  Digital Designer &amp; Developer with over five years work
-                  experience. I started in my children’s room, got pro at
-                  renowned digital agencies akij co and nork blue lebel. Now I’m
-                  based in USA, America, working for Apple fredmansky and
-                  enjoying the life in the countryside.
-                </p>
+    </div>
+  </header>
+  <!--Fin Header-->
+  <main class="main">
+    <div class="about-me">
+      <div class="my-info">
+        <h2>About Me</h2>
+        <img class="separador" src="img/separador.svg" alt="" />
+        <div class="card">
+          <div class="grid-one">
+            <div>
+              <img class="img-me" src="img/me.jpg" alt="freddy gutierrez" />
+            </div>
+            <div>
+              <h3>Freddy Gutierrez</h3>
+              <p class="text-red"><i class="fas fa-map-marked-alt"></i> Z6. Mixco, Guatemala</p>
+              <p>
+                Hello! I’m Freddy Gutierrez a self-taught &amp; award winning
+                Digital Designer &amp; Developer with over five years work
+                experience. I started in my children’s room, got pro at
+                renowned digital agencies akij co and nork blue lebel. Now I’m
+                based in USA, America, working for Apple fredmansky and
+                enjoying the life in the countryside.
+              </p>
+            </div>
+          </div>
+          <div class="grid-two">
+            <div class="info-icon">
+              <i class="fas fa-award"></i>
+              <div class="desc-icon">
+                <h6>8 Years Job</h6>
+                <p>Experience</p>
               </div>
             </div>
-            <div class="grid-two">
-              <div class="info-icon">
-                <i class="fas fa-award"></i>
-                <div class="desc-icon">
-                  <h6>8 Years Job</h6>
-                  <p>Experience</p>
-                </div>
-              </div>
-              <div class="info-icon">
-                <i class="fas fa-certificate"></i>
-                <div class="desc-icon">
-                  <h6>500+ Projects</h6>
-                  <p>Completed</p>
-                </div>
-              </div>
-              <div class="info-icon">
-                <i class="fas fa-user-astronaut"></i>
-                <div class="desc-icon">
-                  <h6>Freelance</h6>
-                  <p>Avalible</p>
-                </div>
+            <div class="info-icon">
+              <i class="fas fa-certificate"></i>
+              <div class="desc-icon">
+                <h6>500+ Projects</h6>
+                <p>Completed</p>
               </div>
             </div>
-            <a href="#">Download CV</a>
+            <div class="info-icon">
+              <i class="fas fa-user-astronaut"></i>
+              <div class="desc-icon">
+                <h6>Freelance</h6>
+                <p>Avalible</p>
+              </div>
+            </div>
+            <div class="cv-boton">
+              <div class="cont-btn">
+                <a href="#" class="down-cv">Download CV</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2>My interests</h2>
+        <img class="separador" src="img/separador.svg" alt="" />
+        <div class="card-two">
+          <div class="grid-three">
+            <div class="interest-elem">
+              <i class="fas fa-pencil-ruler"></i>
+              <h6>Desing</h6>
+            </div>
+            <div class="interest-elem">
+              <i class="fas fa-unlock-alt"></i>
+              <h6>Informatic Security</h6>
+            </div>
+            <div class="interest-elem">
+              <i class="fas fa-code"></i>
+              <h6>Coding</h6>
+            </div>
+            <div class="interest-elem">
+              <i class="fas fa-book"></i>
+              <h6>Books</h6>
+            </div>
+            <div class="interest-elem">
+              <i class="fas fa-gamepad"></i>
+              <h6>Video Games</h6>
+            </div>
+            <div class="interest-elem">
+              <i class="fas fa-poll"></i>
+              <h6>Digital Marketing</h6>
+            </div>
+            <div class="interest-elem">
+              <i class="fas fa-space-shuttle"></i>
+              <h6>Space</h6>
+            </div>
+            <div class="interest-elem">
+              <i class="fas fa-coffee"></i>
+              <h6>Coffe</h6>
+            </div>
+          </div>
+        </div>
+        <h2>Services</h2>
+        <img class="separador" src="img/separador.svg" alt="" />
+        <div class="grid-services">
+          <div class="services-item">
+            <i class="fas fa-desktop"></i>
+            <h3>Web Desing</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis perferendis ipsa aliquam, temporibus
+              unde impedit?</p>
+          </div>
+          <div class="services-item">
+            <i class="fas fa-cogs"></i>
+            <h3>Web Development</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis perferendis ipsa aliquam, temporibus
+              unde impedit?</p>
+          </div>
+          <div class="services-item">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Responsive Desing</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis perferendis ipsa aliquam, temporibus
+              unde impedit?</p>
+          </div>
+          <div class="services-item">
+            <i class="fas fa-tachometer-alt"></i>
+            <h3>Web Optimization</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis perferendis ipsa aliquam, temporibus
+              unde impedit?</p>
           </div>
         </div>
       </div>
-    </main>
-    <script src="custom.js"></script>
-  </body>
+    </div>
+  </main>
+  <script src="custom.js"></script>
+</body>
+
 </html>
