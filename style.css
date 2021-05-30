@@ -17,6 +17,7 @@ ul li{
 }
 body{
     background-color: #111;
+    color: #fff;
 }
 /*HEADER SECTION*/
 header{
@@ -307,4 +308,69 @@ header{
 }
 .services-item p{
     font-size: 0.8rem;
+}
+
+/* Resume Section*/
+.resume{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    height: 0px;
+    background-color: #111;
+}
+.show-resume{
+    position: absolute!important;
+    opacity: 1;
+    transition: all 1s ease-in-out;
+    height: 100%;
+}
+.resume h2.p-title{
+    border-bottom: 2px solid #d94c48;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 2.5rem;
+}
+.resume img{
+    width: 30%;
+}
+.card-xp{
+    background-color: rgba(0, 0, 0,.7);
+    margin: 0.8rem;
+    border-radius: 1.5rem;
+}
+.xp-item{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 1.5rem 0.5;
+    padding: 1rem 2rem;
+    text-align: start;
+}
+.xp-item::before{
+    content: "O-";
+    display: inline-block;
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    background: #d94c48;
+    width:2px;
+    height: 80%;
+    color: #d94c48;
+    z-index: 1;
+}
+.xp-item h4{
+    font-size: 1.2rem;
+}
+.xp-item p{
+    font-size: 0.9rem;
+}
+.xp-item h4,
+.xp-item p{
+    margin: 0.4rem 0 0 0.5rem;
+}
+.fecha-xp{
+    color: #d94c48;
+    font-size: 0.75rem;
 }

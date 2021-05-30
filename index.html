@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,7 +10,7 @@
 </head>
 <body>
   <!--inicio Header-->
-  <header class="header">
+  <header id="header" class="header">
     <!--Menu Mobile-->
     <div class="header-mobile">
       <h2>Menu</h2>
@@ -25,13 +24,13 @@
       </div>
       <ul>
         <li>
-          <a id="btn-home" class="fas fa-house-damage"></a>
+          <a href="#header" id="btn-home" class="fas fa-house-damage"></a>
         </li>
         <li>
-          <a id="btn-about" class="fas fa-user-tie"></a>
+          <a href="#id-main" id="btn-about" class="fas fa-user-tie"></a>
         </li>
         <li>
-          <a id="btn-resume" class="fas fa-address-book"></a>
+          <a href="#id-resume" id="btn-resume" class="fas fa-address-book"></a>
         </li>
         <li>
           <a id="btn-portfolio" href="#portfolio" class="fas fa-briefcase"></a>
@@ -74,7 +73,7 @@
     </div>
   </header>
   <!--Fin Header-->
-  <main class="main">
+  <main id="id-main" class="main">
     <div class="about-me">
       <div class="my-info">
         <h2>About Me</h2>
@@ -195,7 +194,51 @@
       </div>
     </div>
   </main>
+  <section id="id-resume" class="resume">
+    <h2 class="p-title">Resume</h2>
+    <div class="experience">
+      <h2>Experience</h2>
+      <img class="separador" src="img/separador.svg" alt="" />
+      <div class="card-xp">
+        <div class="xp-item">
+          <h4>Functional Technical Analyst</h4>
+          <p class="fecha-xp"><i class="far fa-calendar-alt"></i> 2017 - 2018 | Sistran consultants</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime dicta deserunt impedit tempore placeat tenetur delectus asperiores nemo eveniet suscipit?</p>
+        </div>
+        <div class="xp-item">
+          <h4>Front End Developer</h4>
+          <p class="fecha-xp"><i class="far fa-calendar-alt"></i> 2020 - 2021 | Site CA</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime dicta deserunt impedit tempore placeat tenetur delectus asperiores nemo eveniet suscipit?</p>
+        </div>
+        <div class="xp-item">
+          <h4>Freelance</h4>
+          <p class="fecha-xp"><i class="far fa-calendar-alt"></i> 2020 - Present | My Home</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime dicta deserunt impedit tempore placeat tenetur delectus asperiores nemo eveniet suscipit?</p>
+        </div>
+      </div>
+    </div>
+    <div class="education">
+      <h2>Education</h2>
+      <img class="separador" src="img/separador.svg" alt="" />
+      <div class="card-xp">
+        <div class="xp-item">
+          <h4>High School Computer Science</h4>
+          <p class="fecha-xp"><i class="far fa-calendar-alt"></i> 2017 - 2018 | Colegio Evangelico Mixto Innovador</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime dicta deserunt impedit tempore placeat tenetur delectus asperiores nemo eveniet suscipit?</p>
+        </div>
+        <div class="xp-item">
+          <h4>Systems Engineering</h4>
+          <p class="fecha-xp"><i class="far fa-calendar-alt"></i> 2020 - 2021 | University Mariano Galvez</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime dicta deserunt impedit tempore placeat tenetur delectus asperiores nemo eveniet suscipit?</p>
+        </div>
+        <div class="xp-item">
+          <h4>Autodidact</h4>
+          <p class="fecha-xp"><i class="far fa-calendar-alt"></i> 2016 - Present | My Home</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime dicta deserunt impedit tempore placeat tenetur delectus asperiores nemo eveniet suscipit?</p>
+        </div>
+      </div>
+    </div>
+  </section>
   <script src="custom.js"></script>
 </body>
-
 </html>
