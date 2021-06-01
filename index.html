@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
   <title>Freddy Gutierrez</title>
@@ -13,7 +14,7 @@
   <header id="header" class="header">
     <!--Menu Mobile-->
     <div class="header-mobile">
-      <h2>Menu</h2>
+      <h2>Menu <i class="fas fa-arrow-right" style="color: #d94c48;"></i></h2>
       <a id="btn-menu-mobile"><i class="fas fa-bars"></i></a>
     </div>
     <!--Menu Global-->
@@ -24,7 +25,7 @@
       </div>
       <ul>
         <li>
-          <a href="#header" id="btn-home" class="fas fa-house-damage"></a>
+          <a href="#header" id="btn-home" class="fas fa-house-damage ico-active"></a>
         </li>
         <li>
           <a href="#id-main" id="btn-about" class="fas fa-user-tie"></a>
@@ -33,7 +34,7 @@
           <a href="#id-resume" id="btn-resume" class="fas fa-address-book"></a>
         </li>
         <li>
-          <a id="btn-portfolio" href="#portfolio" class="fas fa-briefcase"></a>
+          <a id="btn-portfolio" href="#id-portfolio" class="fas fa-briefcase"></a>
         </li>
         <li>
           <a id="btn-blog" href="#blog" class="fas fa-receipt"></a>
@@ -43,7 +44,7 @@
         </li>
       </ul>
     </nav>
-    <div class="home">
+    <div class="home animate__animated">
       <div class="banner">
         <h1>Freddy Gutierrez</h1>
         <span>I am a</span>
@@ -73,7 +74,7 @@
     </div>
   </header>
   <!--Fin Header-->
-  <main id="id-main" class="main">
+  <main id="id-main" class="main animate__animated">
     <div class="about-me">
       <div class="my-info">
         <h2>About Me</h2>
@@ -194,7 +195,7 @@
       </div>
     </div>
   </main>
-  <section id="id-resume" class="resume">
+  <section id="id-resume" class="resume animate__animated">
     <h2 class="p-title">Resume</h2>
     <div class="experience">
       <h2>Experience</h2>
@@ -238,6 +239,9 @@
         </div>
       </div>
     </div>
+  </section>
+  <section class="portfolio animate__animated">
+    <iframe id="id-portfolio" src="portafolio/index.html" width="100%" height="100%" frameborder="0"></iframe>
   </section>
   <script src="custom.js"></script>
 </body>
