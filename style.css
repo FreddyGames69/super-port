@@ -312,6 +312,9 @@ header{
 }
 
 /* Resume Section*/
+.education h2{
+    margin-top: 5rem;
+}
 .resume{
     text-align: center;
     position: fixed;
@@ -320,6 +323,7 @@ header{
     transition: all 1s ease-in-out;
     height: 0px;
     background-color: #111;
+    margin-bottom: 3rem;
 }
 .show-resume{
     position: absolute!important;
@@ -376,6 +380,50 @@ header{
     color: #d94c48;
     font-size: 0.75rem;
 }
+.skills{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0,.7);
+    text-align: center;
+    border-radius: 1rem;
+    margin: 1.5rem 1rem;
+}
+.section-skills img{
+    margin:0 auto;
+    width: 30%;
+}
+.section-skills h2{
+    margin-top: 5rem;
+}
+.skill-item{
+    padding: 1rem;
+}
+.skill-item i,
+.skill-item p,
+.skill-item span{
+    margin: 1rem 0;
+}
+.skill-item i{
+    font-size: 3rem;
+    color: #fff;
+    background: #d94c48;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem 2rem 0.5rem;
+}
+.skill-item p{
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.skill-item span{
+    color: rgba(255, 255, 255, 0.5);
+}
+.skill-bl{
+    border-right: 2px solid #d94c48;
+}
+.skill-br{
+    border-left: 2px solid #d94c48;
+}
 
 /*PORTAFOLIO*/
 .portfolio{
@@ -394,4 +442,100 @@ header{
 }
 .ico-active {
     color: #d94c48!important;
+}
+
+/*CONTACT*/
+.contact{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    display: none;
+    transition: all 1s ease-in-out;
+    background: #0e0f10;
+}
+.show-contac{
+    position: absolute!important;
+    display: initial;
+    transition: all 1s ease-in-out;
+    z-index: 100;
+}
+
+
+.contact h2{
+    width: 50%;
+    margin: 5rem auto;
+    font-size: 2.3rem;
+    margin-bottom: 0;
+}
+.contact img.separador{
+    width: 30%;
+}
+.contact form{
+    background-color: rgba(0, 0, 0,.7);
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+.contact form input,
+.contact form textarea{
+    margin: 0.5rem 1rem;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    padding: 1rem;
+}
+.contact form input:focus,
+.contact form textarea:focus{
+    border-bottom: 2px solid #d94c48;
+}
+.contact form input:hover,
+.contact form textarea:hover{
+    border-bottom: 2px solid #d94c48;
+}
+.contact form input#send{
+    color: white;
+    border-bottom: 2px solid #d94c48;
+    width: 35%;
+    padding: 0;
+}
+
+.grid-contact{
+    background: rgba(0, 0, 0,.7);
+    border-radius: 1rem;
+    margin: 2rem 1rem;
+    display: grid;
+
+}
+.contact-item{
+    margin: 1.5rem;
+}
+.contact-item i,
+.contact-item p,
+.contact-item span{
+    margin: 1rem;
+}
+.contact-item i{
+    font-size: 2rem;
+    color: #d94c48;
+}
+.contact-item span{
+    color: rgba(255, 255, 255, 0.3);
+}
+.google-maps{
+    display: grid;
+    min-height: 250px;
+    min-width: 250px;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0,.7);
+    margin: 2rem 1rem;
+    border-radius: 0.8rem;
+}
+.google-maps iframe{
+    height: 100%;
+    width: 100%;
+    border-radius: 0.8rem;
 }
