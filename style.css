@@ -50,6 +50,7 @@ header{
     right: 1rem;
     font-size: 1.6rem;
 }
+
 .header-main{
     background: hsl(0, 0%, 7%);
     position: fixed;
@@ -115,6 +116,7 @@ header{
 }
 .lang-active{
     border-bottom: 1px solid #d94c48;
+    font-weight: 500;
 }
 .social{
     text-align: center;
@@ -125,7 +127,6 @@ header{
     margin: 0.5rem 1rem;
     font-size: 1.2rem;
 }
-
 /*ABOUT ME*/
 .main{
     position: fixed;
@@ -133,6 +134,7 @@ header{
     display: none;
     transition: all 1s ease-in-out;
     height: 0px;
+    width: 100%;
 }
 .show-main{
     position: absolute!important;
@@ -452,6 +454,7 @@ header{
     display: none;
     transition: all 1s ease-in-out;
     background: #0e0f10;
+    width: 100%;
 }
 .show-contac{
     position: absolute!important;
