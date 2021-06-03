@@ -81,4 +81,131 @@
         font-size: 1.1rem;
         color: #d94c48;
     }
-  }
+    
+    /*freddy*/
+    div.grid-three{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    div.interest-elem i{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1rem 0 0 1rem;
+        font-size: 2rem;
+        width: 25%;
+        height: 5rem;
+        text-align: center;
+    }
+    .interest-elem h6{
+        font-size: 2rem;
+        height: 5rem;
+        text-align: center;
+        width: 75%;
+    }
+    .grid-services{
+        grid-template-columns: 1fr 1fr;
+    }
+    .services-item i{
+        font-size: 5rem;
+        height: 10rem;
+        width: 10rem;
+    }
+    .services-item h3{
+        font-size: 1.8rem;
+    }
+    .services-item p{
+        font-size: 1.2rem;
+    }
+    .fusion-xp{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .education h2{
+        margin-top: 0rem;
+        font-size: 2.5rem;
+    }
+    .experience h2{
+        margin-top: 0rem;
+        font-size: 2.5rem;
+    }
+    .xp-item h4{
+        font-size: 2rem;
+        
+    }
+    .xp-item p{
+        font-size: 1.5rem;
+    }
+    .xp-item h4,
+    .xp-item p{
+        margin: 0.4rem 0 0 0.5rem;
+    }
+    .fecha-xp{
+        color: #d94c48;
+        font-size: 0.85rem;
+    }
+    .skills{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0,.7);
+        text-align: center;
+        border-radius: 1rem;
+        margin: 1.5rem 1rem;
+    }
+    .contact h2{
+        font-size: 2.5rem;
+        margin-top: 7rem;
+    }
+    .contact form input{
+        margin: 0.5rem 1rem;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+        padding: 1rem;
+        height: 8rem;
+        font-size: 1.5rem;
+    }
+    .contact form textarea{
+        height: 15rem;
+        font-size: 1.5rem;
+    }
+
+    .contact form input#send{
+        height: 5rem;
+        font-size: 1.4rem;
+    }
+    .grid-contact{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .contact-item i{
+        font-size: 5rem;
+    }
+    .contact-item span{
+        font-size: 1.5rem;
+    }
+    .contact-item p{
+        font-size: 1.4rem;
+    }
+    .google-maps{
+        display: grid;
+        min-height: 420px;
+        min-width: 420px;
+        height: 40%;
+        width: 100%;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0,.7);
+        margin: 2rem 1rem;
+        border-radius: 0.8rem;
+    }
+    .google-maps iframe{
+        height: 100%;
+        width: 100%;
+        border-radius: 0.8rem;
+    }
+    
+}
