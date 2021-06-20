@@ -28,7 +28,7 @@ input{
 header{
     height: 100vh;
     max-width: 100%;
-    background-image: linear-gradient( rgba(0,0,0,0.6),rgba(0,0,0,0.6) ), url('https://freddygutierrez.netlify.app/img/intro-bg.jpg');
+    background-image: linear-gradient( rgba(0,0,0,0.6),rgba(0,0,0,0.6) ), url('./img/hero-bg.jpg');
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -493,6 +493,7 @@ header{
     border: none;
     border-bottom: 2px solid rgba(255, 255, 255, 0.3);
     padding: 1rem;
+    color: #fff;
 }
 .contact form input:focus,
 .contact form textarea:focus{

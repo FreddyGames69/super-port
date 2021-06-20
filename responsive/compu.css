@@ -1,0 +1,75 @@
+@media (min-width: 992px) {
+    .home{
+        position: absolute;
+        width: 90%;
+        right: 0;
+    }
+    .header-mobile{
+        display: none;
+    }
+    .header-main{
+        left: 0;
+        width: 10%;
+    }
+    .header-main .logo img{
+        width: 5rem;
+    }
+    .header-main ul li a{
+        font-size: 2.5rem;
+    }
+    #id-main{
+        top: -5rem;
+        width: 90%;
+        right: 0;
+        padding: 0;
+        margin: 0;
+    }
+    .grid-one{
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .cv-boton{
+        width: 20%;
+        font-size: .5rem;
+    }
+    .cv-boton a{
+        font-size: 1rem;
+    }
+    .interest-elem i,
+    .interest-elem h6{
+        font-size: 1rem;
+    }
+
+    #id-resume{
+        width: 90%;
+        right: 0;
+    }
+    .xp-item .fecha-xp{
+        font-size: .9rem;
+    }
+    .xp-item p{
+        font-size: 1rem;
+    }
+    .xp-item h4{
+        font-size: 1.2rem;
+    }
+    .section-skills h2{
+        font-size: 2rem;
+    }
+    .skills{
+        grid-template-columns: 1fr 1fr;
+        margin: 1rem;
+    }
+    .skill-item{
+        border: none;
+    }
+    #id-contact{
+        width: 90%;
+        right: 0;
+    }
+    #id-contact input[type="text"]{
+        display: flex;
+        flex-direction: row;
+    }
+}
